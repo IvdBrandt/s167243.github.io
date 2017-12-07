@@ -70,19 +70,16 @@
         <hr class="divider">
         <div class="row">
           <div class="col-lg-8">
-             <!--<div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=50.8577758,5.6308641&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-            </div>-->
              <div id="map"></div>
              <script>
       function initMap() {
-        var uluru = {lat: 50.84833, lng: 5.68889};
+        var Maastricht = {lat: 50.84833, lng: 5.68889};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: uluru
+          center: Maastricht
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: Maastricht,
           map: map
         });
       }
